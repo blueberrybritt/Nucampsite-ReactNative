@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, Text } from "react-native";
 import { FlatList, ScrollView } from "react-native-gesture-handler";
 import { PARTNERS } from "../shared/partners";
-import { Card } from "react-native-elements";
+import { Card, ListItem } from "react-native-elements";
 
 function Mission() {
   return (
