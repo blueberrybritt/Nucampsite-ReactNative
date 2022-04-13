@@ -143,7 +143,7 @@ const CustomDrawerContentComponent = (props) => (
           <Text style={styles.drawerHeaderText}>NuCamp</Text>
         </View>
       </View>
-      <DrawerItemsComponent {...props} />
+      <DrawerItems {...props} />
     </SafeAreaView>
   </ScrollView>
 );
